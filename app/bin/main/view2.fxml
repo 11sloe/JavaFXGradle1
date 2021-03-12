@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="286.0" prefWidth="304.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller2">
+   <children>
+      <Label layoutX="43.0" layoutY="14.0" prefHeight="67.0" prefWidth="176.0" text="Java-Beat">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBeat" layoutX="219.0" layoutY="93.0" prefHeight="34.0" prefWidth="43.0" text="120">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="101.0" prefHeight="17.0" prefWidth="104.0" text="Aktueller BPM" />
+      <Line endX="-61.0" endY="198.0" layoutX="122.0" layoutY="61.0" startX="-61.0" startY="34.0" />
+      <Circle fx:id="kreis" fill="#ff821f" layoutX="174.0" layoutY="183.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</Pane>
